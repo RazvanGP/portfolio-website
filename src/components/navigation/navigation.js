@@ -3,7 +3,7 @@ import MobileNavigation from "../mobileNavigation/mobileNavigation";
 
 const Navigation = () => {
   return (
-    <nav className="flex justify-end ">
+    <nav className="flex justify-end">
       <div className="hidden md:flex gap-10">
         <HashLink to="#">Home</HashLink>
         <HashLink to="#aboutSection">About</HashLink>

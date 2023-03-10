@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      dancing: ["Dancing Script", "cursive"],
+      logo: ["Dancing Script", "cursive"],
       primary: "Orbitron",
       secondary: "Rajdhani",
       tertiary: "Aldrich",
