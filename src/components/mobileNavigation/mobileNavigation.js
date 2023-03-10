@@ -18,7 +18,7 @@ const MobileNavigation = () => {
       </button>
 
       {openMenu && (
-        <aside className="bg-red-600 shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
+        <aside className="bgSecondaryLight dark:bg-bgSecondaryDark shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
           {/*close icon*/}
           <button className="text-4xl p-2 absolute">
             <AiOutlineClose
@@ -28,7 +28,7 @@ const MobileNavigation = () => {
             />
           </button>
           {/*menu list*/}
-          <div className="h-full flex flex-col justify-center items-center gap-y-8 font-primary font-bold text-3xl text-center">
+          <div className="h-full flex flex-col justify-center items-center gap-y-8 font-secondary font-bold text-3xl text-center">
             <HashLink to="#">Home</HashLink>
             <HashLink to="#aboutSection">About</HashLink>
             <HashLink to="#technologiesSection">

@@ -5,10 +5,18 @@ const Navigation = () => {
   return (
     <nav className="flex justify-end">
       <div className="hidden md:flex gap-10">
-        <HashLink to="#">Home</HashLink>
-        <HashLink to="#aboutSection">About</HashLink>
-        <HashLink to="#technologiesSection">Tools and Technologies</HashLink>
-        <HashLink to="#projectsSection">My Projects</HashLink>
+        <HashLink to="#" className="font-secondary ">
+          Home
+        </HashLink>
+        <HashLink to="#aboutSection" className="font-secondary">
+          About
+        </HashLink>
+        <HashLink to="#technologiesSection" className="font-secondary">
+          Tools and Technologies
+        </HashLink>
+        <HashLink to="#projectsSection" className="font-secondary">
+          My Projects
+        </HashLink>
       </div>
       <div className="place-self-end">
         <MobileNavigation />
