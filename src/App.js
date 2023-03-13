@@ -14,7 +14,7 @@ function App() {
     <div className={darkMode ? "dark" : ""}>
       <Router>
         <Header />
-        <main className="bgPrimaryLight dark:bg-bgPrimaryDark text-textPrimaryLight dark:text-textPrimaryDark ">
+        <main>
           <About />
           <Technologies />
           <Projects />

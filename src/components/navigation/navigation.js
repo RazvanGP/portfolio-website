@@ -8,7 +8,7 @@ const Navigation = () => {
         <HashLink to="#" className="font-secondary ">
           Home
         </HashLink>
-        <HashLink to="#aboutSection" className="font-secondary">
+        <HashLink to="#" className="font-secondary">
           About
         </HashLink>
         <HashLink to="#technologiesSection" className="font-secondary">

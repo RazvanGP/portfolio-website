@@ -6,3 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani");
+
+body {
+  height: 100vh;
+}

@@ -18,7 +18,7 @@ const MobileNavigation = () => {
       </button>
 
       {openMenu && (
-        <aside className="bgSecondaryLight dark:bg-bgSecondaryDark shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
+        <aside className="bg-colorBlue text-colorWhite shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
           {/*close icon*/}
           <button className="text-4xl p-2 absolute">
             <AiOutlineClose

@@ -5,16 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        //light
-        bgPrimaryLight: "#f1faee",
-        bgSecondaryLight: "#8d99ae",
-        bgTertiaryLight: "#457b9d",
-        textPrimaryLight: "#2b2d42",
-        //dark
-        bgPrimaryDark: "#1d3557",
-        bgSecondaryDark: "#8d99ae",
-        bgTertiaryDark: "#48cae4",
-        textPrimaryDark: "#f1faee",
+        colorWhite: "rgb(246 239 238)",
+        colorLightBlue: "#8d99ae",
+        colorBlue: "#457b9d",
+        colorDarkBlue: "#2b2d42",
+        colorAccentBlue: "#48cae4",
       },
     },
     fontFamily: {
@@ -22,6 +17,18 @@ module.exports = {
       primary: ["Orbitron", "sans-serif"],
       secondary: ["Rajdhani", "sans-serif"],
       tertiary: ["Aldrich", "sans-serif"],
+    },
+    animation: {
+      blob: "random 20s ease-in-out infinite",
+    },
+    keyframes: {
+      random: {
+        "0%": { transform: "scale(1)" },
+        "25%": { transform: "rotate(45deg)" },
+        "50%": { transform: "scale(1.3)" },
+        "75%": { transform: "rotate(-90deg)" },
+        "100%": { transform: "scale(1)" },
+      },
     },
   },
   plugins: [],
