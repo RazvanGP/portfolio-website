@@ -4,12 +4,19 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        "skills-background":
+          "url('https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+      },
       colors: {
         colorWhite: "rgb(246 239 238)",
         colorLightBlue: "#8d99ae",
         colorBlue: "#457b9d",
         colorDarkBlue: "#2b2d42",
         colorAccentBlue: "#48cae4",
+      },
+      blur: {
+        xs: "2px",
       },
     },
     fontFamily: {

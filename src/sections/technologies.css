@@ -1,0 +1,109 @@
+/* #pillsArea {
+  position: relative;
+  height: 100%;
+  width: 70%;
+  left: 0;
+  overflow: hidden;
+} */
+
+#pillsArea > div {
+  user-select: none !important;
+  position: absolute;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.pill:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  transition: ease-in-out 0.3s;
+}
+
+div[data-id="1"] {
+  left: 15%;
+  top: 30%;
+  transform: rotate(-45deg) translateX(-50px);
+  opacity: 1;
+  animation-name: fadeInLeft;
+}
+
+div[data-id="2"] {
+  left: 30%;
+  top: 30%;
+  transform: rotate(25deg);
+  opacity: 1;
+  animation-name: fadeInRight;
+}
+
+div[data-id="3"] {
+  left: 25%;
+  top: 37%;
+  transform: rotate(5deg);
+  opacity: 1;
+  animation-name: fadeInLeft;
+}
+
+div[data-id="4"] {
+  left: 15%;
+  top: 45%;
+  transform: rotate(30deg);
+  opacity: 1;
+  animation-name: fadeInRight;
+}
+
+div[data-id="5"] {
+  left: 30%;
+  top: 45%;
+  transform: rotate(15deg);
+  opacity: 1;
+  animation-name: fadeInLeft;
+}
+
+div[data-id="6"] {
+  left: 32%;
+  top: 52%;
+  transform: rotate(-50deg);
+  opacity: 1;
+  animation-name: fadeInRight;
+}
+
+div[data-id="7"] {
+  left: 35%;
+  top: 60%;
+  transform: rotate(60deg);
+  opacity: 1;
+  animation-name: fadeInLeft;
+}
+
+div[data-id="8"] {
+  left: 15%;
+  top: 55%;
+  transform: rotate(0deg);
+  opacity: 1;
+  animation-name: fadeInRight;
+}
+
+div[data-id="9"] {
+  left: 22%;
+  top: 65%;
+  transform: rotate(-15deg);
+  opacity: 1;
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}

@@ -1,8 +1,8 @@
 import Header from "./sections/header";
-import About from "./sections/about";
-import Technologies from "./sections/technologies";
-import Projects from "./sections/projects";
-import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages/home";
+import Resume from "./pages/resume";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
@@ -15,9 +15,10 @@ function App() {
       <Router>
         <Header />
         <main>
-          <About />
-          <Technologies />
-          <Projects />
+          <Routes>
+            <Route index path="/" element={<Home />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
         </main>
       </Router>
     </div>
