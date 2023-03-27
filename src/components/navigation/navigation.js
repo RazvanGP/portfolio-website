@@ -5,14 +5,14 @@ import MobileNavigation from "../mobileNavigation/mobileNavigation";
 const Navigation = () => {
   return (
     <nav className="flex justify-end">
-      <div className="hidden md:flex gap-10 ">
+      <div className="hidden md:flex gap-10">
         <Link to="/" className="font-secondary ">
           Home
         </Link>
         <HashLink to="#" className="font-secondary">
           About
         </HashLink>
-        <HashLink to="#technologiesSection" className="font-secondary">
+        <HashLink to="#skillsSection" className="font-secondary">
           Tools and Technologies
         </HashLink>
         <HashLink to="#projectsSection" className="font-secondary">

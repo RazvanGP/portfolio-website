@@ -1,6 +1,7 @@
 import About from "../sections/about";
 import Skills from "../sections/skills";
 import Projects from "../sections/projects";
+import MouseFollower from "../components/mouseFollower/mouseFollower";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <About />
       <Skills />
       <Projects />
+      <MouseFollower />
     </>
   );
 };
