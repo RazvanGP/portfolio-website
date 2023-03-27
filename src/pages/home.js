@@ -1,12 +1,12 @@
 import About from "../sections/about";
-import Technologies from "../sections/technologies";
+import Skills from "../sections/skills";
 import Projects from "../sections/projects";
 
 const Home = () => {
   return (
     <>
       <About />
-      <Technologies />
+      <Skills />
       <Projects />
     </>
   );

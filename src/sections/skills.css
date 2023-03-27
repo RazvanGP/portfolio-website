@@ -1,0 +1,94 @@
+.pill {
+  width: max-content;
+  /* max-height: fit-content; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  opacity: 0;
+  animation: fadeInFadeOut alternate infinite;
+}
+
+.html-pill {
+  background-color: #e34c26;
+  color: white;
+  animation-delay: 1500ms;
+  animation-duration: 5s;
+}
+.css-pill {
+  background-color: #264de4;
+  color: white;
+  animation-delay: 2500ms;
+  animation-duration: 6s;
+  animation-direction: reverse;
+  grid-column: span 2;
+}
+.js-pill {
+  background-color: #f0db4f;
+  animation-delay: 1000ms;
+  animation-duration: 10s;
+  grid-column: span 2;
+}
+
+.react-pill {
+  background-color: #61dbfb;
+  animation-delay: 500ms;
+  animation-duration: 10s;
+  animation-direction: reverse;
+  grid-column: span 2;
+}
+
+.node-pill {
+  background-color: #68a063;
+  animation-direction: reverse;
+  animation-duration: 7s;
+  grid-column: span 3;
+}
+
+.git-pill {
+  background-color: #f1502f;
+  animation-delay: 2000ms;
+  animation-duration: 12s;
+}
+
+.sass-pill {
+  background-color: #c69;
+  animation-delay: 4000ms;
+  color: white;
+  animation-duration: 8s;
+}
+
+.bootstrap-pill {
+  background-color: #080135;
+  animation-delay: 4000ms;
+  color: white;
+  animation-duration: 15s;
+  grid-column: span 2;
+}
+
+.tailwind-pill {
+  background-color: #0284c7;
+  animation-delay: 3000ms;
+  color: white;
+  animation-duration: 7s;
+}
+
+@keyframes fadeInFadeOut {
+  0% {
+    transform: translateY(500%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(50%);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(55%) scale(1.2);
+  }
+  100% {
+    transform: translateY(-500%);
+    opacity: 0;
+  }
+}

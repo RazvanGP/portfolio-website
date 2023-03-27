@@ -4,12 +4,8 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      backgroundImage: {
-        "skills-background":
-          "url('https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
-      },
       colors: {
-        colorWhite: "rgb(246 239 238)",
+        colorWhite: "#F6EFEE",
         colorLightBlue: "#8d99ae",
         colorBlue: "#457b9d",
         colorDarkBlue: "#2b2d42",
@@ -27,6 +23,7 @@ module.exports = {
     },
     animation: {
       blob: "random 20s ease-in-out infinite",
+      pills: "fadeInFadeOut 20s alternate infinite",
     },
     keyframes: {
       random: {
@@ -36,6 +33,16 @@ module.exports = {
         "75%": { transform: "rotate(-90deg)" },
         "100%": { transform: "scale(1)" },
       },
+      // fadeInFadeOut: {
+      //   // "0%": { transform: "translateY(100%)", opacity: "0" },
+      //   // "50%": { opacity: "1" },
+      //   // "100%": { transform: "translateY(-100%)", opacity: "0" },
+
+      //   "0%": { transform: "translateY(500%)", opacity: "0" },
+      //   "50%": { transform: "translateY(50%)", opacity: "1" },
+      //   "60%": { transform: "translateY(55%) scale(1.2)", opacity: "1" },
+      //   "100%": { transform: "translateY(-500%)", opacity: "0" },
+      // },
     },
   },
   plugins: [],
